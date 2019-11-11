@@ -1,4 +1,6 @@
-##psuedo elements - CSS not applied when display flex is used in microsoft edge
+# IE11 issues faced by me
+
+## Psuedo elements - CSS not applied when display flex is used in microsoft edge
 https://stackoverflow.com/questions/56712661/css-not-applied-when-display-flex-is-used-in-microsoft-edge
 //problem
 const text = styled(div)`
@@ -41,6 +43,9 @@ const text = styled(div)`
 `;
 <text>OR</text> 
 
-##using getBoundingClientRect
+## using getBoundingClientRect
 fix: https://github.com/ticketmaster/aurora/pull/573/files
 description: using x and y coordinates doesn't work in IE11 and MSEdge. We have to make use of top and left instead
+
+## multiple box shadows doesn't work in IE11 virtual image
+https://stackoverflow.com/questions/57368041/multiple-box-shadows-doesnt-work-in-msedge
