@@ -52,3 +52,15 @@ description: using x and y coordinates doesn't work in IE11 and MSEdge. We have 
 
 ## multiple box shadows doesn't work in IE11 virtual image
 https://stackoverflow.com/questions/57368041/multiple-box-shadows-doesnt-work-in-msedge
+
+## backticks are not supported 
+backticks are not supported in IE11 browser if there is a case where you cannot apply babel transpiler. In which you need to write the javascript part appended as the script to the HTML page
+
+```
+    <script type="text/javascript">
+    (function()
+      {
+          //code
+      }());
+    </script>
+```
