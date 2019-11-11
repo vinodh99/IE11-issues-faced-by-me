@@ -3,6 +3,7 @@
 ## Psuedo elements - CSS not applied when display flex is used in microsoft edge
 https://stackoverflow.com/questions/56712661/css-not-applied-when-display-flex-is-used-in-microsoft-edge
 //problem
+```
 const text = styled(div)`
     display: flex;
     align-items: center;
@@ -21,8 +22,9 @@ const text = styled(div)`
   }
 `;
 <text>OR</text>
-
+```
 //solution
+```
 const text = styled(div)`
     display: flex;
     align-items: center;
@@ -42,6 +44,7 @@ const text = styled(div)`
   }
 `;
 <text>OR</text> 
+```
 
 ## using getBoundingClientRect
 fix: https://github.com/ticketmaster/aurora/pull/573/files
